@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.contaner{
+   margin: auto;
+    width: 70%;
+}
+
+header{
+    background-color: #4c659e;
+    padding:20px 0;
+    padding-bottom: 10px;
+
+}
+
+header h1{
+    margin: 0;
+    color: aliceblue;
+    float: left;
+    font-size: 45px;
+   
+}
+
+header form{
+    float: right;
+}
+
+header form label,header form input{
+    display: block;
+    color: #fff;
+}
+
+form  .group-form{
+    float: left;
+    margin: 0px 5px;
+}
+
+form .group-form a{
+ color: #fff;
+ text-decoration: none;
+}
+
+form .botton{
+    margin-top: 18px;
+    background-color: #4c659e;
+    margin-left: 10px;
+    border: 1px solid #2a4276;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*****style scection*******/
+section{
+    background-color: hsla(230, 30%, 96%, 0.69);
+    padding-top: 90px;
+    height: 90vh;
+}
+
+section .group p{
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 1.6;
+}
+.birthdate-label{
+  margin-top: 30px;
+  display: inline-block;
+}
+
+section .form , section .group{
+    float: left;
+    width: 50%;
+} 
+
+section .group img{
+    width:508px;
+}
+
+.form h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size:40px ;
+}
+
+.form #free{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form input{
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 80%;
+    border: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.form input::placeholder{
+    color: #a9a9a9;
+    font-weight: bolder;
+}
+
+.form .w-50{
+    display: inline-block;
+    width: 39%;
+}
+
+.form .w-50:first-of-type{
+    margin-right: 10px;
+}
+
+.form .d-inline{
+    width: 10%;
+    display: inline-block;
+}
+
+.form input[type="radio"]{
+    width: 3%;
+}
+
+.form input[type="submit"]{
+    background-color: #5e9b4d;
+    width: 50%;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.w-80{
+    width: 80%;
+}
